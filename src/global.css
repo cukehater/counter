@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background-color: transparent;
+  box-sizing: border-box;
+  word-break: keep-all;
+  line-height: 1.4em;
+  overflow: hidden;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
